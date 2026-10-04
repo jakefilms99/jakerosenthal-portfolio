@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+.venv/
+.env
+.env.*
+*.log
+pages_raw/
+mirror.py
+asset-urls.json
+remaining-assets.json
+.cursor/
