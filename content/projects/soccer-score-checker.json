@@ -1,0 +1,119 @@
+{
+  "title": "Soccer Score Checker",
+  "lede": "Watch or not? No spoilers — find out if you should still watch the game you recorded.",
+  "subhead": "A case study that highlights my passion for tech and my curiosity to learn.",
+  "liveUrl": "https://soccer-score-checker.vercel.app",
+  "cover": {
+    "src": "/assets/cdn.prod.website-files.com/5ebfff57f6222da643c230ce/642081ca938268b46974f46d_Soccer%20Score%20Checker%20Cover.png",
+    "alt": "Soccer Score Checker Mockup"
+  },
+  "meta": [
+    {
+      "label": "Role",
+      "value": "Site development, API integration, UI/UX design."
+    },
+    {
+      "label": "Technologies",
+      "value": "Figma, React JS."
+    },
+    {
+      "label": "Purpose",
+      "value": "Fun learning experiment."
+    }
+  ],
+  "summary": "Combining my love for tech and soccer to save myself the pain of watching a 0-0 match.",
+  "challenge": {
+    "title": "Challenge",
+    "body": "<p>Being a soccer fan in Canada is not an easy task. Juggling streaming services and European league games scheduled during work hours can make it difficult to catch your favorite team playing live. I've recorded games more times than I can count, and I really go the extra mile to make sure I don't get the score spoiled. There's something special about not knowing what's going to happen! I'll avoid all social media and even text my friends not to mention the game.</p><p>That being said, nothing hurts more than seeing a scoreless draw or a blowout after waiting for hours to finally sit down and watch. Eventually, I started asking my dad \"Don't tell me the score, just answer these questions\" and have him advise on whether I should skip the game I recorded.</p><p>For fun, I wanted to see if I could eliminate the \"middle-man\" (sorry dad) and develop a site that can do this for me.</p>",
+    "points": [
+      {
+        "title": "Spoilers",
+        "body": "<p>Hard to avoid seeing the score online (sometimes even the streaming sites themselves spoil it!).</p>"
+      },
+      {
+        "title": "Scheduling",
+        "body": "<p>Difficult to catch games during the work day or early in the morning.</p>"
+      },
+      {
+        "title": "Entertainment",
+        "body": "<p>Maximize the \"fun\" factor and avoid watching stale games.</p>"
+      }
+    ]
+  },
+  "solution": {
+    "title": "Solution",
+    "body": "<p>The soccer score checker helps you decide whether or not to watch a game based on your preferences. Do you want to watch a high-scoring game? Avoid a 0-0 draw or a complete blowout?</p><p>All you need to do is set your criteria and leave the rest to the site. The best part is that there's no indication of the actual score!</p><figure><video src=\"https://dl.dropboxusercontent.com/s/8m80bij9fs2yx3r/Soccer%20Score%20Checker%20-%20TikTok.mov?dl=0\" controls muted playsinline preload=\"metadata\"></video></figure>"
+  },
+  "chapters": [
+    {
+      "label": "process",
+      "blocks": [
+        {
+          "type": "entry",
+          "title": "Inspiration and Design",
+          "body": "<h4>If it ain't broke...</h4><p>Before starting this project, I wanted to check if something like this already existed. Regardless, I was determined to create it for myself as it sounded like fun and a great way to test out an interesting API. It would also make for a funny story to tell! Finding a starting point and drawing inspiration from existing solutions would certainly be helpful.</p><p>After researching, I came across an <a href=\"https://lifehacker.com/should-i-watch-tells-you-if-a-sports-game-is-worth-watc-5591487\" target=\"_blank\" rel=\"noreferrer\">article</a> that linked to a site from over 10 years ago. Although the concept was similar, it wasn't for soccer.</p><h4>A little refresh can't hurt</h4><p>I decided to give it a nice modern UI, add new features, and tailor it to be soccer-related. I created a quick wireframe sketch and then a pixel-perfect version using Figma.</p><figure><img src=\"/assets/cdn.prod.website-files.com/5ebfff57f6222da643c230ce/6422546822060e4629cafb7b_Soccer%20Wireframe%20Sketch.PNG\" alt=\"Wireframe sketch\" loading=\"lazy\" /><figcaption>Structuring the flow and rough design.</figcaption></figure>"
+        },
+        {
+          "type": "entry",
+          "title": "Development",
+          "body": "<h4>Data requirements</h4><p>I identified an API that would provide me with the necessary data to check scores and set criteira against them. It needed to have all the stats for the latest matches, and info about the teams themselves. The one I found, called <a href=\"https://www.api-football.com\" target=\"_blank\" rel=\"noreferrer\">API-Football</a>, was perfect and had great documentation, which made life a lot easier!</p><p>Fortunately, I was able to combine my existing knowledge of React JS with the all-mighty ChatGPT to quickly create a very basic, functioning version of the site. ChatGPT made it so easy... I was able to request specific components, such as the search bar. I could describe desired functionality, and with minimal tweaks on my end, some references to the API documentation, I had a working score checker!</p><p>I then compared it to the Figma design and added CSS to style it. I even made it responsive and deployed it on Vercel, which had been on my list of things to try out.</p>"
+        },
+        {
+          "type": "entry",
+          "title": "Launch (sort of)",
+          "body": "<h4>Private site, public TikTok</h4><p>Why \"sort of\"? Well, as you can probably guess, this site was not actually intended for the public. It was more so just a fun weekend hack meant for personal use. That being said, I wanted to share my process and tell the story of how I made this site through my TikTok account.</p><h4>All publicity is good publicity... right?</h4><p>The video ended up getting over 60k views, which was quite amusing considering the reason why it received so many views. I had a feeling that if it reached Europeans, they would call me out for saying \"soccer\" instead of \"football,\" as well as for the teams I supported (I chose them when I was only 8 years old, so please forgive me for not knowing better at the time).</p><figure class=\"pair\"><img src=\"/assets/cdn.prod.website-files.com/5ebfff57f6222da643c230ce/6422581a97e0e1fa7cfafe16_Soccer%20Comment%201.png\" alt=\"Sample TikTok comment\" loading=\"lazy\" /><img src=\"/assets/cdn.prod.website-files.com/5ebfff57f6222da643c230ce/6422581a1f8ab05f192caf6c_Soccer%20Comment%202.png\" alt=\"Sample TikTok comment\" loading=\"lazy\" /><figcaption>The good and the bad.</figcaption></figure><p>It was all in good fun, and although some people took it too seriously, I was surprised to hear that some people actually wanted the link!</p>"
+        }
+      ]
+    },
+    {
+      "label": "features",
+      "blocks": [
+        {
+          "type": "feature",
+          "image": "/assets/cdn.prod.website-files.com/5ebfff57f6222da643c230ce/6422595c59a46d1e484f87cb_Conditional%20logic.png",
+          "alt": "Set conditional criteria",
+          "title": "Conditional logic",
+          "body": "Set your criteria and you'll be advised based on your preferences."
+        },
+        {
+          "type": "feature",
+          "image": "/assets/cdn.prod.website-files.com/5ebfff57f6222da643c230ce/6422595cc6ad207af3ce362b_Easy%20search.png",
+          "alt": "Search bar",
+          "title": "Quick search",
+          "body": "Easily find the latest fixture by looking for your club."
+        },
+        {
+          "type": "feature",
+          "image": "/assets/cdn.prod.website-files.com/5ebfff57f6222da643c230ce/6422595c87c1c12944585381_Reveal%20score.png",
+          "alt": "Score card",
+          "title": "Reveal score",
+          "body": "Neat UI detail to optionally remove the blur from the score."
+        }
+      ]
+    },
+    {
+      "label": "takeaways",
+      "blocks": [
+        {
+          "type": "text",
+          "body": "<p>I had so much fun building this silly little site... And even more fun getting to actually use it now! Even if I was the only person in the world that wanted this, it's a really great feeling to scratch your own itch with technology. It's a nice bonus that people also thought it was an interesting concept (for those who could get past the fact that I support two teams that tend not to like each other).</p>"
+        },
+        {
+          "type": "entry",
+          "title": "Prioritize \"fun\"",
+          "body": "<p>While I typically work on complex and large-scale projects in my day-to-day, it's refreshing to switch it up and work on something more playful like this! If you have an idea, no matter how ridiculous it may seem to others, as long as you'll have fun creating it, I say go for it!</p>"
+        },
+        {
+          "type": "entry",
+          "title": "Focus on what matters",
+          "body": "<p>Although I researched to find a suitable API, I should have also taken the time to test the core functionality and the criteria checking portion. In the end, I found it challenging to come up with meaningful questions for the criteria, which is something I only tackled towards the end. I should have prioritized this step before even starting the design process.</p>"
+        },
+        {
+          "type": "entry",
+          "title": "Cut through the noise",
+          "body": "<p>Feedback is a critical aspect of the design process. It's essential to be open to negative feedback as well. Through feedback, I learned a lot about what people consider to be an exciting game. I even received suggestions about how to account for 0-0 games that are still worth watching. However, it's important to distinguish between helpful and unhelpful feedback. Although comments making fun of my teams can be discouraging, they don't reflect on the actual site itself.</p>"
+        }
+      ]
+    }
+  ]
+}
