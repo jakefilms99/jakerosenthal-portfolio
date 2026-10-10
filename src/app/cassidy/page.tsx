@@ -54,13 +54,12 @@ export default function CassidyPage() {
         <div className="prose prose--lead" data-ix="">
           <p>
             I joined as employee #3 when we were five people total — co-founders
-            included — in a WeWork in New York City. We were early. Revenue was
-            still in the low six figures. My job was whatever the company needed
-            next.
+            included — in a WeWork in New York City. We were early. My job was
+            whatever the company needed next.
           </p>
           <p>
             Over the next 2.5 years we grew into a 30+ person company in our own
-            office, with multiple seven figures of enterprise ARR and some of the
+            office, with revenue up 35x+ and some of the
             biggest logos in our space. That growth wasn’t a straight line. One of
             the hardest shifts was moving from a product-led growth motion to an
             enterprise, sales-led one — different buyers, longer cycles, demos that
