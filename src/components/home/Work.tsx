@@ -76,7 +76,7 @@ export function Work() {
               aria-labelledby={`${item.id}-title`}
               style={
                 {
-                  "--fill": "var(--paper)",
+                  "--fill": "rgb(255 255 255 / 0.45)",
                   "--on": "var(--ink)",
                   "--media": "var(--silver)",
                   "--stats": item.pop,

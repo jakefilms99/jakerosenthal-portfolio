@@ -30,9 +30,9 @@ export function Cassidy() {
             early customer success lead as we pivoted from a PLG motion to
             enterprise sales-led. As each team took shape, I trained its founding
             members on the playbooks I’d built. Today, the team is{" "}
-            <em className="serif">30+</em> people. Revenue has grown from low six
-            figures to <em className="serif">multiple seven figures</em> of
-            enterprise ARR. To date, I’ve helped close our largest customers,
+            <em className="serif">30+</em> people. Revenue has grown{" "}
+            <em className="serif">35x+</em>. To date, I’ve helped close our
+            largest customers,
             like{" "}
             <a href={site.oneDigital} target="_blank" rel="noreferrer">
               OneDigital
