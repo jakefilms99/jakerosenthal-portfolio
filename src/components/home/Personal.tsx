@@ -46,10 +46,8 @@ export function Personal() {
           Personal
         </h2>
         <p className="personal__statement" data-ix="">
-          I moved from Montreal to New York City to pursue early-stage AI
-          startups — mission: <em className="serif">learn by doing</em> and{" "}
-          <em className="serif">teach by doing</em> with AI. Outside of that,
-          here’s what fills the rest of my time.
+          Outside of work, here’s what fills the rest of my time — soccer,
+          music, and making drinks for people I care about.
         </p>
         <ul className="hobbies">
           {hobbies.map((hobby) => (

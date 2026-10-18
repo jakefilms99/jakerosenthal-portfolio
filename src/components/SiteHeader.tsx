@@ -47,7 +47,7 @@ export function SiteHeader() {
             <a key={item.label} href={item.href} target="_blank" rel="noreferrer">
               {item.label}
               <span className="arrow" aria-hidden>
-                ↗
+                ↗︎
               </span>
             </a>
           ))}

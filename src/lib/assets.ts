@@ -9,5 +9,5 @@ export const asset = {
   headshotSrcSet: `${cdn("666c5ff3b5889b3693a09f83_Jake%20Headshot%202-p-500.png")} 500w, ${cdn("666c5ff3b5889b3693a09f83_Jake%20Headshot%202.png")} 587w`,
   favicon: cdn("5f3f246c950c519f9eb297fd_Favicon.png"),
   webclip: cdn("5f3f24702adb975118be644d_Webclip.png"),
-  og: cdn("642482b308a240633b499599_Open%20Graph.png"),
+  og: "/media/og.jpg",
 } as const;

@@ -54,7 +54,7 @@ export function Hero() {
             <a href={site.tiktok} target="_blank" rel="noreferrer">
               <span>{site.tiktokHandle}</span>
               <span className="arrow" aria-hidden>
-                ↗
+                ↗︎
               </span>
             </a>
           </figcaption>

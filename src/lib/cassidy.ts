@@ -25,8 +25,8 @@ export const process = [
     now: false,
   },
   {
-    role: "GTM",
-    body: "Led our rebrand and identity. Today I own inbound and the landing page.",
+    role: "Product marketing",
+    body: "Today my work spans a number of areas, from inbound and brand to launches, and I still jump in wherever I’m needed.",
     now: true,
   },
 ] as const;

@@ -1,6 +1,6 @@
 # Jake Rosenthal — Portfolio
 
-Personal portfolio built with **Next.js (App Router)**, React 19, and TypeScript. Light editorial direction: full-bleed dark hero, airy spacing, quiet type hierarchy, soft project washes.
+Personal portfolio built with **Next.js (App Router)**, React 19, and TypeScript. Light editorial direction: airy spacing, quiet type hierarchy, story-led home page.
 
 ## Develop
 
@@ -20,9 +20,9 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Structure
 
-- `src/app` — routes (`/`, `/projects/[slug]`, `/chat-with-ai-jake`, 404)
+- `src/app` — routes (`/`, `/cassidy`, `/chat-with-ai-jake`, 404)
 - `src/components` — header, footer, shared primitives, `home/` sections
-- `src/lib` — site info, projects, case-study loader
-- `content/projects/*.json` — structured case-study content
-- `public/assets` — images and media
+- `src/lib` — site info, assets, Cassidy content
+- `public/media` — photography and social share image
+- `public/assets` — legacy CDN assets
 - `legacy-static/` — reference copy of the original Webflow site

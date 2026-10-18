@@ -11,7 +11,7 @@ export default function NotFound() {
         <Link href="/" className="text-cta">
           Back home
           <span className="arrow arrow--right" aria-hidden>
-            →
+            →︎
           </span>
         </Link>
       </div>
