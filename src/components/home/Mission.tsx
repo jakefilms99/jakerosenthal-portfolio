@@ -40,8 +40,23 @@ export function Mission() {
     let frame = 0;
     const update = () => {
       const rect = track.getBoundingClientRect();
-      const travel = Math.max(1, track.offsetHeight - window.innerHeight);
-      const p = Math.min(1, Math.max(0, -rect.top / travel));
+      const sticky = track.firstElementChild as HTMLElement | null;
+      const stickyH = sticky?.offsetHeight ?? window.innerHeight;
+      const headerH =
+        parseFloat(
+          getComputedStyle(document.documentElement).getPropertyValue(
+            "--header",
+          ),
+        ) || 0;
+      // Real pinned distance: from the sticky engaging to the section ending.
+      const travel = Math.max(1, track.offsetHeight - stickyH);
+      // Finish inking at 85% of the pin so the full text is readable before
+      // the section scrolls away (mobile viewport units can otherwise leave
+      // the last words stuck grey).
+      const p = Math.min(
+        1,
+        Math.max(0, (headerH - rect.top) / (travel * 0.85)),
+      );
       track.style.setProperty("--p", p.toFixed(4));
     };
     const onScroll = () => {
