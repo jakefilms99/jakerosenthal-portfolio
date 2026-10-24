@@ -101,7 +101,7 @@ export function Work() {
                     <a href={item.href} target="_blank" rel="noreferrer">
                       {item.title}
                       <span className="arrow" aria-hidden>
-                        ↗
+                        ↗︎
                       </span>
                     </a>
                   </h3>

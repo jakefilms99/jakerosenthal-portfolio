@@ -11,7 +11,7 @@ export function Cassidy() {
           <a href={site.cassidy} target="_blank" rel="noreferrer">
             Cassidy
             <span className="arrow" aria-hidden>
-              ↗
+              ↗︎
             </span>
           </a>
         </h3>
@@ -37,7 +37,7 @@ export function Cassidy() {
             <a href={site.oneDigital} target="_blank" rel="noreferrer">
               OneDigital
               <span className="arrow" aria-hidden>
-                ↗
+                ↗︎
               </span>
             </a>
             , which has onboarded <em className="serif">6,000</em> employees to

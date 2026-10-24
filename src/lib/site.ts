@@ -2,7 +2,7 @@ export const site = {
   name: "Jake Rosenthal",
   title: "Jake Rosenthal — Early-stage startup operator",
   description:
-    "Early-stage startup operator. Employee #3 at Cassidy, co-founder of Interviews by AI (80k+ users), and sharing AI and startups with 50k+ followers.",
+    "Early-stage startup operator making powerful technology accessible. Employee #3 at Cassidy, co-founder of Interviews by AI (80k+ users, $100k+ revenue), sharing AI in public with 50k+ followers.",
   emailAddress: "career@jakerosenthal.ca",
   email: "mailto:career@jakerosenthal.ca?subject=Hi%20Jake!",
   tiktok: "https://www.tiktok.com/@jakerosenthal_",
@@ -12,6 +12,7 @@ export const site = {
   oneDigital:
     "https://www.cassidyai.com/customer/how-onedigital-got-6-000-employees-to-actually-use-ai-coworkers",
   interviewsByAi: "https://interviewsby.ai/",
+  url: "https://www.jakerosenthal.ca",
 } as const;
 
 export const socialLinks = [

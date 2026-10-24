@@ -24,12 +24,24 @@ const instrument = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.jakerosenthal.ca"),
+  metadataBase: new URL(site.url),
   title: {
     default: site.title,
     template: `%s — ${site.name}`,
   },
   description: site.description,
+  applicationName: site.name,
+  authors: [{ name: site.name, url: site.url }],
+  creator: site.name,
+  keywords: [
+    "Jake Rosenthal",
+    "Cassidy",
+    "product marketing",
+    "early-stage",
+    "AI",
+    "Interviews by AI",
+    "startup operator",
+  ],
   icons: {
     icon: asset.favicon,
     apple: asset.webclip,
@@ -37,7 +49,17 @@ export const metadata: Metadata = {
   openGraph: {
     title: site.title,
     description: site.description,
-    images: [asset.og],
+    url: site.url,
+    siteName: site.name,
+    locale: "en_US",
+    images: [
+      {
+        url: asset.og,
+        width: 1200,
+        height: 630,
+        alt: "Jake Rosenthal — Early-stage startup operator",
+      },
+    ],
     type: "website",
   },
   twitter: {
@@ -45,6 +67,9 @@ export const metadata: Metadata = {
     title: site.title,
     description: site.description,
     images: [asset.og],
+  },
+  alternates: {
+    canonical: site.url,
   },
 };
 

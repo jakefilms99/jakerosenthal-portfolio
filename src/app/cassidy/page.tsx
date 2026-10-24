@@ -36,7 +36,10 @@ export default function CassidyPage() {
           rel="noreferrer"
           data-ix=""
         >
-          cassidyai.com <span className="arrow" aria-hidden>↗</span>
+          cassidyai.com{" "}
+          <span className="arrow" aria-hidden>
+            ↗︎
+          </span>
         </a>
       </header>
 
@@ -116,7 +119,10 @@ export default function CassidyPage() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    {item.link} <span className="arrow" aria-hidden>↗</span>
+                    {item.link}{" "}
+                    <span className="arrow" aria-hidden>
+                      ↗︎
+                    </span>
                   </a>
                 ) : null}
               </div>

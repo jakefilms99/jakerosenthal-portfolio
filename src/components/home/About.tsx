@@ -17,25 +17,44 @@ export function About() {
           </p>
           <div className="about__copy" data-ix="">
             <p>
-              I grew up in Montreal and went to McGill University. After school I
-              moved to Toronto for consulting at Publicis Sapient – big finance
-              and government clients, real product work – but it didn’t take long
-              to realize startups were more my thing.
+              I grew up in Montreal and went to McGill. After school I moved to
+              Toronto for consulting at Publicis Sapient — finance and
+              government clients, real product work — but it didn’t take long to
+              realize startups were more my thing.
             </p>
             <p>
-              On the side I co-launched interviewsby.ai with a friend. It grew
-              past <em className="serif">$100k</em> in revenue and{" "}
-              <em className="serif">80k+</em> users, and I started sharing what I
-              was learning about AI and building on TikTok, which grew to{" "}
-              <em className="serif">50k+</em> followers (including partnerships
-              with Zapier and Replit).
+              A year into that PM role, a friend demoed a tiny app built on an
+              early GPT model: one conversation-starter question a day. The
+              English was fine, but it still felt like the model was mostly
+              stringing words together. (In a lot of ways, that’s still true.) I
+              said “oh, that’s cool” and moved on. I should have paid more
+              attention.
             </p>
             <p>
-              Through that work I met Justin Feinberg, co-founder of Cassidy. I
-              joined as employee <em className="serif">#3</em> in New York –
-              five of us in a WeWork – and have worn nearly every hat as we grew
-              into an enterprise sales-led company: product, marketing, sales
-              engineering, customer success, and now GTM.
+              When ChatGPT shipped about a year later, I treated it like a
+              second chance. I started experimenting that day and posting
+              everything I was learning. That turned into{" "}
+              <em className="serif">50k+</em> followers and partnerships with
+              Zapier and Replit.
+            </p>
+            <p>
+              Sharing what I knew pulled me into shipping. A friend and I built
+              Interviews by AI on nights and weekends —{" "}
+              <em className="serif">80k+</em> users and{" "}
+              <em className="serif">$100k+</em> in revenue with no full-time
+              team. That work also introduced me to Justin Fineberg, who was
+              just getting Cassidy off the ground.
+            </p>
+            <p>
+              Cassidy helps business teams build AI agents around how their
+              company already runs. I joined as employee{" "}
+              <em className="serif">#3</em>, five of us in a WeWork. I’ve since
+              worn hats across product, marketing, sales engineering, and
+              customer success, and wrote a lot of our first playbooks. I lead
+              product marketing now, though I’m still across the business. Since
+              I joined, revenue is up <em className="serif">35x+</em>, the team
+              is <em className="serif">30+</em>, and OneDigital alone has{" "}
+              <em className="serif">6,000</em> employees on Cassidy.
             </p>
           </div>
         </div>

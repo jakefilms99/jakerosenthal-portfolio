@@ -20,7 +20,7 @@ export default function ChatWithAiJakePage() {
         <Link href="/" className="text-cta">
           Back home
           <span className="arrow arrow--right" aria-hidden>
-            →
+            →︎
           </span>
         </Link>
       </div>

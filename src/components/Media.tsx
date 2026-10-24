@@ -44,7 +44,7 @@ export function Media({
             <a href={captionHref} target="_blank" rel="noreferrer">
               <span>{caption}</span>
               <span className="arrow" aria-hidden>
-                ↗
+                ↗︎
               </span>
             </a>
           ) : (
